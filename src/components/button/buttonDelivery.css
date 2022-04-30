@@ -1,0 +1,35 @@
+:root {
+    --primary: #bd162c;
+}
+
+.btn_Delivery {
+    margin-left: 3%;
+    margin-top: 0.5%;
+    float: left;
+    font-family: "Muli";
+    font-weight: 400;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background-color: #bd162c;
+}
+
+.btn_Delivery:hover {
+    filter: brightness(80%);
+}
+
+.btn_Delivery--primary--solid {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+}
+
+.btn_Delivery--medium {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.btn_Delivery--small {
+    padding: 15px 30px;
+    font-size: 20px;
+}

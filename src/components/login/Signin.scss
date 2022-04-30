@@ -1,0 +1,358 @@
+.dashboard_login {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(http://uyenphat.com.vn/wp-content/uploads/2019/06/slide-2.png);
+    background-size: cover;
+    background-position: top;
+    min-height: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.title-container {
+    width: 100%;
+    height: 42%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    z-index: 1;
+    position: relative;
+}
+
+.login-container {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    // position: fixed;
+    width: 28%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    background-image: initial;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    // height: 100%;
+}
+
+.login-form-title {
+    font-family: 'Muli';
+    font-size: 36px;
+    color: #fff;
+    line-height: 1.2;
+    text-align: center;
+    display: block;
+    padding-bottom: 10%;
+    box-sizing: border-box;
+}
+
+.container-login-form-btn {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+.login-form-btn {
+    font-family: 'Muli';
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 160px;
+    height: 42px;
+    border-radius: 21px;
+    background-color: #d41919;
+    background-image: linear-gradient(to bottom right, #FF416C, #FF4B2B);
+    position: relative;
+    z-index: 1;
+    outline: none !important;
+    border: none;
+    -webkit-appearance: button;
+    overflow: visible;
+}
+
+.login-form-btn:hover {
+    background-image: none;
+}
+
+.login-container .login-container-inside {
+    width: 100%;
+}
+
+.img-login {
+    margin: 1%;
+    width: 15%;
+}
+
+.login-form {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-top: 10%;
+    // padding-bottom: 7%;
+}
+
+.forgot-password {
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // padding-top: 3%;
+    // padding-bottom: 5%;
+    margin-top: 5%;
+    //background-color: #c0c0c0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.btn-forgot-pasword {
+    padding-top: 3%;
+    padding-bottom: 5%;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: none;
+   // background-color: #c0c0c0;
+    outline: none;
+    font-family: 'Muli';
+    font-size: 18px;
+    color: #bd162c;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.btn-forgot-pasword:hover {
+    filter: brightness(80%);
+}
+
+.logo-container {
+    // margin: 1%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 25%;
+}
+
+.wrap-input {
+    width: 100%;
+    // border-bottom: 1px solid #e6e6e6;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 6%;
+}
+
+.wrap-password {
+    width: 100%;
+    // border-bottom: 1px solid #e6e6e6;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 4%;
+}
+
+.login {
+    width: 50%;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    float: right;
+    margin-right: 8%;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.group {
+    position: relative;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+input {
+    font-size: 18px;
+    padding: 2%;
+    display: block;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #757575;
+}
+
+input:focus {
+    outline: none;
+}
+
+label {
+    color: #999;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 10%;
+    top: 30%;
+    transition: 0.3s ease all;
+    -moz-transition: 0.3s ease all;
+    -webkit-transition: 0.3s ease all;
+}
+
+input:focus~label,
+input:valid~label {
+    top: -30%;
+    font-size: 14px;
+    color: red;
+}
+
+.bar {
+    position: relative;
+    display: block;
+    width: 84%;
+}
+
+.bar:before,
+.bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: red;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.bar:before {
+    left: 50%;
+}
+
+.bar:after {
+    right: 50%;
+}
+
+input:focus~.bar:before,
+input:focus~.bar:after {
+    width: 50%;
+}
+
+.highlight {
+    position: absolute;
+    height: 80%;
+    width: 10%;
+    top: 25%;
+    left: 10%;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+input:focus~.highlight {
+    -webkit-animation: inputHighlighter 0.3s ease;
+    -moz-animation: inputHighlighter 0.3s ease;
+    animation: inputHighlighter 0.3s ease;
+}
+
+@-webkit-keyframes inputHighlighter {
+    from {
+        background: #ff0000;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@-moz-keyframes inputHighlighter {
+    from {
+        background: #ff0000;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@keyframes inputHighlighter {
+    from {
+        background: #ff0000;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+.btn_login {
+    height: 5ch;
+    width: 40%;
+    border: none;
+    cursor: pointer;
+    padding: 0px 10px;
+    display: inline-block;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    -transform: translateZ(0);
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: white;
+    font-weight: 600;
+    background-color: red;
+    border-radius: 20vh;
+    margin-top: 2%;
+    font-size: large;
+}
+
+.btn_login:before {
+    opacity: 0;
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    border-radius: inherit;
+    background-color: #ffffff;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+.btn_login:hover,
+.btn_login.hover {
+    background-color: #d41919;
+    color: #ffffff;
+}
+
+.btn_login:hover:before,
+.btn_login.hover:before {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+    opacity: 0.25;
+}

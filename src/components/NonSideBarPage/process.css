@@ -1,0 +1,102 @@
+.boxprocess {
+    background-color: white;
+    padding: 2%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    margin: 1%;
+    margin-top: 2%;
+    display: inline-block;
+    width: 98%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 2px rgba(227, 2, 23, 0.4);
+}
+
+.processfield {
+    display: inline-block;
+
+}
+
+.divprocess {
+    width: 30%;
+    display: inline-block;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+
+.formm {
+    padding-top: 2%;
+    width: 100%;
+}
+
+.h3 {
+    display: inline;
+    font-family: 'Muli';
+    font-size: 22px;
+    color: #bd162c;
+    padding-bottom: 2%;
+}
+
+.date {
+    width: 100%;
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.start {
+    width: 100%;
+}
+
+.mid1 {
+    width: 100%;
+}
+
+.mid2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.status {
+    margin-top: 3%;
+    width: 100%;
+}
+
+.orderdetail {
+    width: 100%;
+}
+
+.divorderdetail {
+    width: 100%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+/* .divtabs {
+    width: 100vw;
+    overflow-x:scroll;
+} */
+
+.tabss {
+    width: 100%;
+    overflow: scroll;
+}
+
+.processDetailTable {
+    margin: 4%;
+    margin-top: 6%;
+}
+
+.tableRequestDetails {
+    margin: 2%;
+    margin-top: 3%;
+}
+
+.table {
+    /* margin: 1%; */
+    margin-top: 5%;
+}

@@ -1,0 +1,19 @@
+.btnAccept {
+    display: inline;
+    border: none;
+    outline: none;
+    padding: none;
+    background: none;
+    color: #AD1115;
+    font-family: 'Muli';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btnAccept:hover{
+    filter: brightness(80%);
+}
+/* 
+.btn {
+    display: inline-block;
+} */

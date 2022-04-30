@@ -1,0 +1,19 @@
+@import 'react-big-calendar/lib/css/react-big-calendar.css';
+
+.rbc-toolbar>.rbc-btn-group:last-child {
+    display: none;
+}
+
+.rbc-event-content {
+    text-align: center;
+}
+
+.rbc-toolbar-label {
+    font-size: larger;
+    text-align: end !important;
+}
+
+.rbc-month-header {
+    background-color: rgb(227, 2, 23);
+    font-size: x-large;
+}

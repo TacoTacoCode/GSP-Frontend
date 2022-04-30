@@ -1,0 +1,144 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* body {
+  margin: 0.5% 1% 0 1%;
+  border-radius: 10px;
+  background: #fff;
+} */
+
+.container {
+  margin-bottom: 0.5%;
+  margin-top: 6%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 75%;
+  background: #f1f1f1;
+  /* margin: 100px auto 0; */
+  word-break: break-all;
+  border: 1px solid rgba(227, 2, 23, 0.4);
+}
+
+.bloc-tabs {
+  display: flex;
+}
+
+.tabs {
+  font-family: 'Muli';
+  font-size: 18px;
+  padding: 15px;
+  text-align: center;
+  width: 50%;
+  background: #fff;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+}
+
+.tabs:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.active-tabs {
+  background: white;
+  border-bottom: 1px solid transparent;
+  color: #bd162c;
+  font-family: 'Muli';
+  transition: linear;
+}
+
+.active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+  height: 5px;
+  background: #bd162c;
+}
+
+
+
+button {
+  border: none;
+
+}
+
+.content-tabs {
+  flex-grow: 1;
+}
+
+.content {
+  background: white;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+  padding-left: 3%;
+}
+
+.content h2 {
+  padding: 0px 0 5px 0px;
+  font-family: 'Muli';
+  color: #bd162c;
+}
+
+.content hr {
+  width: 100px;
+  height: 1px;
+  background: #bd162c;
+  margin-bottom: 5px;
+  border: none;
+}
+
+.active-content {
+  display: block;
+}
+
+.number {
+  margin-top: 5%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divnum {
+  width: 25%;
+  display: inline-block;
+  padding-right: 3%;
+  padding-bottom: 2%;
+}
+
+.numberfield {
+  display: inline-block;
+  width: 30%;
+}
+
+.date1 {
+  margin-top: 2%;
+  width: 100%;
+}
+
+.date2 {
+  margin-top: 4%;
+  width: 100%;
+}
+
+.divdate {
+  width: 35%;
+  display: inline-block;
+  padding-right: 3%;
+  padding-bottom: 2%;
+}
